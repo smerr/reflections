@@ -1,0 +1,21 @@
+// In order to compare two files in command promt to see errors example:
+//		C:\Users\Sarah>cd C:/Development
+//		C:\Development>cd gitclass
+//		C:\Development\gitclass> FC game_old.js game_new.js
+
+// In order to compare two files in gitHub to see errors example:
+// 		$ cd C:/Development/gitclass
+//
+//		Sarah@Zee MINGW64 /c/Development/gitclass
+//		$ diff -u game_old.js game_new.js
+
+// In order to compare changes within a file in git HUb:
+//		$ cd C:/Development/gitclass
+//
+//		Sarah@Zee MINGW64 /c/Development/gitclass
+//		$ git diff "some commit address" "other commit address"
+
+// version control allows you to access files together, look at them in steps, and move forward and backward in the    // file. 
+
+// to add an entire repository, type git clone
+// untracked files in new repository go through staging area before they go into a commit
